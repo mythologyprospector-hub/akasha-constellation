@@ -1,0 +1,19 @@
+ecosystem: Akasha
+
+repos:
+
+  engine-discovery:
+    role: engine
+    layer: discovery
+
+  forge-project:
+    role: forge
+    layer: creation
+
+  engine-mythology:
+    role: engine
+    layer: interpretation
+
+  node-herald:
+    role: node
+    layer: distribution
