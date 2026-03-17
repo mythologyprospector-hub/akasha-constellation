@@ -1,146 +1,142 @@
 # Akasha Ecosystem Roadmap
 
-This document tracks planned components and research directions for the
-Akasha ecosystem.
+This document tracks the structural evolution of the Akasha ecosystem.
 
-The goal of Akasha is to build a structured discovery and creation
-environment where tools, knowledge, and systems evolve coherently.
+Akasha is being developed as a layered system for:
+
+- defining principles
+- structuring knowledge
+- exploring unknowns
+- constructing tools
+- maintaining ecosystem coherence
+
+This roadmap describes the growth of the ecosystem itself.
 
 ---
 
-# Phase 1 — Foundations (CURRENT)
+## Phase 1 — Foundation Layer
 
-Repositories:
+Status: active
+
+Core repositories:
 
 - akasha-axioms
 - akasha-world
 - akasha-constellation
+- akasha-discovery
 - akasha-forge
 - akasha-guardian
 
 Goals:
 
-- establish canonical structure
-- define ecosystem rules
-- create repo manifests
-- map ecosystem relationships
+- establish governing principles
+- define canonical naming and ontology
+- register ecosystem components
+- define discovery and construction roles
+- introduce repository manifests
 
 ---
 
-# Phase 2 — Intelligence Layer
+## Phase 2 — Analysis Layer
 
-Planned Repositories:
+Status: planned
 
-## akasha-lens
+Planned repositories:
 
-Purpose:
+- akasha-lens
+- akasha-observer
+- akasha-record
 
-Interpret artifacts and extract semantic meaning.
+Goals:
 
-Capabilities:
-
-- program analysis
-- knowledge graph generation
-- pattern detection
-
----
-
-## akasha-observer
-
-Purpose:
-
-Execute experiments and evaluate outcomes.
-
-Capabilities:
-
-- run generated tools
-- perform experiments
-- capture results
+- define analytical perspectives
+- execute discovery experiments
+- preserve experiment history
+- compare results across multiple lenses
 
 ---
 
-## akasha-record
+## Phase 3 — Domain Graph Layer
 
-Purpose:
+Status: planned
 
-Long-term memory of experiments, discoveries, and artifacts.
+Planned repositories:
 
-Capabilities:
+- akasha-graph-phases
+- additional domain graphs as needed
+- bridge graphs between domains
 
-- discovery logging
-- experiment archives
-- knowledge persistence
+Goals:
+
+- create manageable domain-specific graphs
+- avoid premature universal graph complexity
+- support cross-domain mapping through bridges
+- prepare for future meta-graph consolidation
 
 ---
 
-# Phase 3 — Discovery Engine
+## Phase 4 — Discovery Expansion
 
-## akasha-discovery
+Status: planned
 
-Purpose:
+Focus areas:
 
-Explore unknown design space.
-
-Capabilities:
-
+- discovery engines
 - hypothesis generation
-- constraint exploration
-- design experimentation
+- structural gap detection
+- candidate recording and review
+
+Goals:
+
+- identify missing nodes and relationships
+- compare outputs from multiple lenses
+- support human-reviewed knowledge expansion
 
 ---
 
-# Phase 4 — Ecosystem Evolution
+## Phase 5 — Ecosystem Self-Maintenance
 
-## Self-Morphing Repositories
+Status: planned
 
-Research direction:
+Focus areas:
 
-Repositories that can analyze themselves and propose improved
-canonical forms.
+- repository manifests
+- guardian drift reports
+- forge-generated corrections
+- constellation synchronization
 
-Workflow:
+Goals:
 
-repo  
-↓  
-guardian inspection  
-↓  
-drift detection  
-↓  
-forge mutation proposal  
-↓  
-human approval  
+- detect structural drift
+- propose canonical corrections
+- preserve role clarity across repositories
+- prevent uncontrolled ecosystem sprawl
 
 ---
 
-# Phase 5 — Program Translation Research
+## Phase 6 — Long-Term Research Directions
 
-Research concept:
+Status: exploratory
 
-AI-assisted cross-platform program reconstruction.
+Research themes:
 
-Pipeline:
+- self-morphing repository quines
+- AI-assisted cross-platform program reconstruction
+- collectors for forums and media ecosystems
+- structured memory and persistence systems
+- bridge layers between knowledge domains
+- consolidated meta-graph after stable domain graphs exist
 
-artifact  
-↓  
-binary analysis (Ghidra, JADX, etc.)  
-↓  
-semantic interpretation  
-↓  
-platform-neutral representation  
-↓  
-Forge synthesis  
-
-Goal:
-
-Enable tools to evolve and migrate across platforms.
+These ideas remain subject to human review and careful staging.
 
 ---
 
-# Long-Term Vision
+## Guiding Rule
 
-Akasha becomes a system capable of:
+Akasha grows in layers.
 
-- mapping knowledge structures
-- discovering missing tools
-- synthesizing new solutions
-- maintaining ecosystem coherence
+The system should not expand faster than it can remain understandable.
+
+Structure first.  
+Capability second.  
+Scale last.
