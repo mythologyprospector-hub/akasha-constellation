@@ -17,3 +17,28 @@ repos:
   node-herald:
     role: node
     layer: distribution
+
+  akasha-axioms:
+    role: foundation
+    layer: constitutional
+    description: Governing principles, ontology, doctrine, and system requirements for the Akasha ecosystem.
+
+  akasha-world:
+    role: registry
+    layer: knowledge
+    description: Canonical knowledge registry, naming conventions, and repository manifest schema.
+
+  akasha-discovery:
+    role: engine
+    layer: discovery
+    description: Discovery engine that proposes candidates, explores gaps, and records experiments.
+
+  akasha-forge:
+    role: forge
+    layer: creation
+    description: Construction engine that builds tools, modules, and repositories from approved discoveries.
+
+  akasha-constellation:
+    role: registry
+    layer: ecosystem
+    description: Ecosystem map tracking repositories, relationships, and operational flows.
