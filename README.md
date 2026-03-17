@@ -61,3 +61,6 @@ akasha-world — knowledge registry
 akasha-discovery — discovery engine  
 
 Constellation does not generate knowledge or tools. It maps the structure of the ecosystem itself.
+
+
+This repository participates in the Akasha ecosystem and is described by repo-manifest.yaml.
