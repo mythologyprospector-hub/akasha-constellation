@@ -5,18 +5,22 @@ repos:
   engine-discovery:
     role: engine
     layer: discovery
-
-  forge-project:
-    role: forge
-    layer: creation
+    description: Legacy discovery engine preserved for compatibility.
 
   engine-mythology:
     role: engine
     layer: interpretation
+    description: Mythology interpretation engine for narrative and symbolic analysis.
 
   node-herald:
     role: node
     layer: distribution
+    description: Distribution node responsible for publishing outputs and artifacts.
+
+  forge-project:
+    role: forge
+    layer: creation
+    description: Legacy forge system preserved for compatibility.
 
   akasha-axioms:
     role: foundation
@@ -28,6 +32,11 @@ repos:
     layer: knowledge
     description: Canonical knowledge registry, naming conventions, and repository manifest schema.
 
+  akasha-constellation:
+    role: registry
+    layer: ecosystem
+    description: Ecosystem map tracking repositories, relationships, and operational flows.
+
   akasha-discovery:
     role: engine
     layer: discovery
@@ -38,7 +47,12 @@ repos:
     layer: creation
     description: Construction engine that builds tools, modules, and repositories from approved discoveries.
 
-  akasha-constellation:
-    role: registry
-    layer: ecosystem
-    description: Ecosystem map tracking repositories, relationships, and operational flows.
+  akasha-apis:
+    role: interface
+    layer: ingestion
+    description: Standardized connectors and API interfaces for external data sources.
+
+  akasha-collect:
+    role: engine
+    layer: ingestion
+    description: Executes collectors defined in akasha-apis and gathers external artifacts.
