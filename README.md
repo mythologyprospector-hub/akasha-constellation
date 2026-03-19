@@ -64,3 +64,7 @@ Constellation does not generate knowledge or tools. It maps the structure of the
 
 
 This repository participates in the Akasha ecosystem and is described by repo-manifest.yaml.
+
+---
+
+This repository participates in the Akasha ecosystem and is described by repo-manifest.yaml.
