@@ -3,28 +3,33 @@ repo:
   ecosystem: akasha
   version: 0.1.0
   status: coordination
-
 identity:
   role: registry
   layer: coordination
-  description: >
-    Registry of repositories and their roles within the Akasha ecosystem.
+  description: 'Registry of repositories and their roles within the Akasha ecosystem.
 
+    '
 ownership:
   steward: human
   approval_required: true
-
 interfaces:
   consumes:
-    - repo-manifests
+  - repo-manifests
   produces:
-    - ecosystem_map
-    - repo_registry
-
+  - ecosystem_map
+  - repo_registry
 capabilities:
-  - repo_registration
-  - ecosystem_mapping
-  - dependency_graph
-
+- repo_registration
+- ecosystem_mapping
+- dependency_graph
 alignment:
   canonical_structure: true
+name: akasha-constellation
+type: module
+status:
+  maturity: experimental
+  confidence: low
+  active: true
+role: concept
+domain: systems
+depends_on: []
