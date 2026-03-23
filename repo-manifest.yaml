@@ -32,4 +32,5 @@ status:
   active: true
 role: registry
 domain: systems
-depends_on: []
+depends_on:
+- akasha-world
