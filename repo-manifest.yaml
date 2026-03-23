@@ -30,6 +30,6 @@ status:
   maturity: experimental
   confidence: low
   active: true
-role: concept
+role: registry
 domain: systems
 depends_on: []
