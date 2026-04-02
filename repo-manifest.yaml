@@ -34,3 +34,8 @@ role: registry
 domain: systems
 depends_on:
 - akasha-world
+
+engine:
+  family: meta
+  class: coordination_engine
+  role: unknown
